@@ -1,16 +1,16 @@
-import { StyleSheet } from 'react-native';
-import { THEME } from '../../styles/theme';
+import { StyleSheet } from 'react-native'
+import { THEME } from '../../styles/theme'
 
 export const styles = StyleSheet.create({
   bars: {
     flexDirection: 'row',
-    alignItems: 'flex-end'
+    alignItems: 'flex-end',
   },
   level: {
     width: 4,
     backgroundColor: THEME.COLORS.GREY_500,
     borderRadius: 6,
-    marginLeft: 4
+    marginLeft: 4,
   },
   level1: {
     height: 6,
@@ -21,4 +21,4 @@ export const styles = StyleSheet.create({
   level3: {
     height: 20,
   },
-});
+})

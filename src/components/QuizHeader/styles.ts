@@ -1,6 +1,6 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native'
 
-import { THEME } from '../../styles/theme';
+import { THEME } from '../../styles/theme'
 
 export const styles = StyleSheet.create({
   container: {
@@ -21,9 +21,9 @@ export const styles = StyleSheet.create({
     fontSize: 16,
   },
   question: {
-    color: '#C4C4CC'
+    color: '#C4C4CC',
   },
   length: {
-    color: '#C4C4CC'
+    color: '#C4C4CC',
   },
-});
+})

@@ -1,5 +1,5 @@
-import { StyleSheet } from 'react-native';
-import { THEME } from '../../styles/theme';
+import { StyleSheet } from 'react-native'
+import { THEME } from '../../styles/theme'
 
 export const styles = StyleSheet.create({
   container: {
@@ -11,12 +11,12 @@ export const styles = StyleSheet.create({
     borderColor: 'red',
     justifyContent: 'center',
     alignItems: 'center',
-    margin: 6
+    margin: 6,
   },
   title: {
     textTransform: 'uppercase',
     fontSize: 12,
     fontFamily: THEME.FONTS.REGULAR,
-    color: 'white'
-  }
-});
+    color: 'white',
+  },
+})

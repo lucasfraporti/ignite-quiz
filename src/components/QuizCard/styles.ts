@@ -1,13 +1,14 @@
-import { Dimensions, StyleSheet } from 'react-native';
-import { THEME } from '../../styles/theme';
+import { Dimensions, StyleSheet } from 'react-native'
+import { THEME } from '../../styles/theme'
 
-const dimensions = Dimensions.get('window');
+const dimensions = Dimensions.get('window')
 
-const CARDS_PER_ROW = 2;
-const HORIZONTAL_PADDING_SCREEN = 32 * 2;
-const MARGIN = 6 * 2;
+const CARDS_PER_ROW = 2
+const HORIZONTAL_PADDING_SCREEN = 32 * 2
+const MARGIN = 6 * 2
 
-const CARD_WIDTH = (dimensions.width - HORIZONTAL_PADDING_SCREEN - MARGIN) / CARDS_PER_ROW;
+const CARD_WIDTH =
+  (dimensions.width - HORIZONTAL_PADDING_SCREEN - MARGIN) / CARDS_PER_ROW
 
 export const styles = StyleSheet.create({
   container: {
@@ -29,13 +30,13 @@ export const styles = StyleSheet.create({
     borderRadius: 6,
     backgroundColor: THEME.COLORS.GREY_600,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   title: {
     flex: 1,
     fontSize: 16,
     fontFamily: THEME.FONTS.REGULAR,
     color: THEME.COLORS.GREY_100,
-    marginTop: 24
+    marginTop: 24,
   },
-});
+})

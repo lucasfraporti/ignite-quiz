@@ -1,5 +1,5 @@
-import { StyleSheet } from 'react-native';
-import { THEME } from '../../styles/theme';
+import { StyleSheet } from 'react-native'
+import { THEME } from '../../styles/theme'
 
 export const styles = StyleSheet.create({
   container: {
@@ -15,5 +15,5 @@ export const styles = StyleSheet.create({
   footer: {
     flexDirection: 'row',
     marginTop: 24,
-  }
-});
+  },
+})

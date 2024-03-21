@@ -1,9 +1,9 @@
-import { Dimensions, StyleSheet } from 'react-native';
-import { THEME } from '../../styles/theme';
+import { Dimensions, StyleSheet } from 'react-native'
+import { THEME } from '../../styles/theme'
 
-const { width } = Dimensions.get('window');
+const { width } = Dimensions.get('window')
 
-const MARGIN_HORIZONTAL = 24 * 2;
+const MARGIN_HORIZONTAL = 24 * 2
 
 export const styles = StyleSheet.create({
   container: {
@@ -17,6 +17,6 @@ export const styles = StyleSheet.create({
     color: THEME.COLORS.WHITE,
     fontSize: 18,
     textAlign: 'center',
-    marginBottom: 18
+    marginBottom: 18,
   },
-});
+})
