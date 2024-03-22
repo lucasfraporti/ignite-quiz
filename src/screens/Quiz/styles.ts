@@ -6,6 +6,10 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: THEME.COLORS.GREY_800,
   },
+  header: {
+    width: '100%',
+    marginBottom: 21,
+  },
   title: {
     fontFamily: THEME.FONTS.BOLD,
     color: THEME.COLORS.GREY_100,
