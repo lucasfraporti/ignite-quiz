@@ -5,7 +5,7 @@ import { Quiz } from '../screens/Quiz'
 import { Finish } from '../screens/Finish'
 import { History } from '../screens/History'
 
-const { Navigator, Screen } = createNativeStackNavigator()
+const { Navigator, Screen, Group } = createNativeStackNavigator()
 
 export function AppRoutes() {
   return (
@@ -15,9 +15,14 @@ export function AppRoutes() {
       }}
     >
       <Screen name="home" component={Home} />
-      <Screen name="quiz" component={Quiz} />
+
+      {/* Desabilitando a opção de voltar com o gesto do iOS */}
+      <Group screenOptions={{ gestureEnabled: false }}>
+        <Screen name="quiz" component={Quiz} />
+        <Screen name="finish" component={Finish} />
+      </Group>
+
       <Screen name="history" component={History} />
-      <Screen name="finish" component={Finish} />
     </Navigator>
   )
 }
